@@ -1,0 +1,86 @@
+---
+author: Shohreh Safarpour
+date: 2026-09-15
+output: html_document
+title: Synthetic Sales Analysis Documentation
+---
+
+> **AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) for
+> documentation structure, wording, Markdown formatting suggestions, and
+> revision support on September 15, 2026. Prompts used are recorded in
+> `Appendix.md`. I manually verify the final R code, calculations, and
+> rendered output. No real or personal data was provided to the AI.
+
+# Purpose
+
+This R Markdown file documents a single R analysis workflow using a
+synthetic sales dataset. Its purpose is to explain what the script is
+intended to do, what information it receives, and what outputs it should
+produce.
+
+## Inputs
+
+The intended input is a **synthetic dataset**. Before final submission,
+the actual synthetic file used in the project should be confirmed and
+its filename recorded here.
+
+Suggested information to verify:
+
+-   Dataset filename
+-   Column names
+-   Data types
+-   Number of observations
+-   Missing-value handling requirements
+
+## Script Workflow
+
+The documented workflow contains the following stages:
+
+1.  Import the synthetic dataset.
+2.  Inspect the data structure.
+3.  Check for missing or inconsistent values.
+4.  Prepare relevant variables.
+5.  Produce descriptive summaries.
+6.  Review and interpret the resulting output.
+
+## R Code
+
+The assignment requires the `.Rmd` file to document an R script with
+code blocks. Because AI-generated calculations must not replace the
+student's own verified work, the final verified R code should be
+inserted into the following chunk.
+
+`{r setup, include=TRUE} # Insert manually verified setup code here.`
+
+`{r analysis, include=TRUE} # Insert the manually verified R analysis code here.`
+
+## Outputs
+
+After the verified script is added and run, this section should describe
+the actual outputs produced by the script. Examples may include:
+
+-   A cleaned or prepared dataset
+-   Summary statistics
+-   Tables
+-   Charts
+-   Console output
+
+Only outputs actually produced by the verified script should remain in
+the final submission.
+
+## Validation
+
+Before submission:
+
+-   Run the R code directly.
+-   Confirm that each code chunk executes without errors.
+-   Check that the output matches the source data.
+-   Knit or preview this `.Rmd` file in RStudio or Posit Cloud.
+-   Check header hierarchy and code-block formatting.
+-   Correct any Markdown or rendering issues discovered during preview.
+
+## Conclusion
+
+This document provides a clear structure for documenting one R script.
+The final version should reflect the actual synthetic dataset, verified
+R code, and outputs used in the project.
